@@ -1,0 +1,6 @@
+{
+  "name": "The Fifty Project",
+  "description": "Fifty causes. One crore. Every rupee on camera. A finite project to give one crore away — properly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

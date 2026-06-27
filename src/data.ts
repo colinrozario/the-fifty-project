@@ -19,7 +19,7 @@ export const causesData: Cause[] = [
     orgName: "Against Malaria Foundation",
     vettedBy: "GiveWell — Top Charity",
     india80G: "No (foreign org)",
-    transferredDate: "Deployed: July 15, 2026",
+    transferredDate: "Funded on 26/06/26",
     receiptUrl: "https://thefiftyproject.in/receipts/01_malaria_amf_receipt.pdf",
     youtubeId: "dQw4w9WgXcQ", // Placeholder for embed
     problemTitle: "A disease we know how to beat still kills a child every minute",

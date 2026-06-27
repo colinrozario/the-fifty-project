@@ -146,7 +146,7 @@ export default function Navbar({
         {/* Right CTA */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="https://youtube.com/@thefiftyproject"
+            href="https://www.youtube.com/@kevinmarkdrozario"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-marigold px-5 py-2 font-sans text-xs font-extrabold uppercase tracking-wider text-banyan transition-transform hover:scale-105 active:scale-95 shadow-sm"

@@ -39,9 +39,7 @@ export default function LedgerTab({
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleDownloadExcelSim = () => {
-    alert(`Exporting open-ledger spreadsheet:\nFilename: fifty_project_ledger_milestone_${progressIndex}.csv\nRows: 50\nFields: Fraction, Name, Pillar, NGO Partner, Vetted By, Amount (INR), Status, Date, Receipt Voucher.`);
-  };
+  const LEDGER_SHEET_URL = 'https://docs.google.com/spreadsheets/d/1AsdhfkPPDRlmM8YyQsxAlkn4hNu2vDDiXaXmbFCBGrE/edit?usp=sharing';
 
   // Compile active relative status based on milestone slider
   const getRelativeStatus = (causeId: number): 'funded' | 'up_next' | 'queued' => {
@@ -81,14 +79,16 @@ export default function LedgerTab({
           </p>
         </div>
 
-        <button
-          onClick={handleDownloadExcelSim}
+        <a
+          href={LEDGER_SHEET_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-full bg-banyan text-white px-5 py-3 font-mono text-xs uppercase tracking-wider font-extrabold hover:bg-leaf transition-colors self-start md:self-auto"
           id="export-ledger-csv-btn"
         >
           <FileSpreadsheet className="h-4 w-4" />
           Export Ledger (.csv)
-        </button>
+        </a>
       </div>
 
       {/* Top Ledger Audit Overview Banner */}

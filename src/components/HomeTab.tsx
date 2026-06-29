@@ -579,7 +579,7 @@ export default function HomeTab({
                 We release a new episode every single fortnight corresponding to each numbered ledger transfer. Subscribe directly on YouTube to examine transfer wire confirmation frames.
               </p>
               <a
-                href="https://youtube.com/@thefiftyproject"
+                href="https://www.youtube.com/@kevinmarkdrozario"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 font-mono text-[11px] font-extrabold uppercase tracking-wide text-marigold hover:text-banyan transition-colors mt-2"

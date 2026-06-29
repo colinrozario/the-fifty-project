@@ -248,11 +248,11 @@ export default function App() {
             </div>
             
             <div className="flex gap-4 shrink-0 font-mono text-[10px]">
-              <a href="https://youtube.com" className="hover:text-white transition-colors">YOUTUBE</a>
+              <a href="https://www.youtube.com/@kevinmarkdrozario" className="hover:text-white transition-colors">YOUTUBE</a>
               <span>·</span>
-              <a href="https://instagram.com" className="hover:text-white transition-colors">INSTAGRAM</a>
+              <a href="https://www.instagram.com/kevin.mark.d.rozario" className="hover:text-white transition-colors">INSTAGRAM</a>
               <span>·</span>
-              <a href="https://x.com" className="hover:text-white transition-colors">X</a>
+              <a href="https://x.com/KevinMarkDRoza1" className="hover:text-white transition-colors">X</a>
             </div>
           </div>
 

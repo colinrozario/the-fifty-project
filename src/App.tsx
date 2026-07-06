@@ -18,8 +18,8 @@ export default function App() {
   // Navigation tabs: 'home' | 'causes' | 'about' | 'ledger' | 'cause-detail'
   const [activeTab, setActiveTab] = useState<'home' | 'causes' | 'about' | 'ledger' | 'cause-detail'>('home');
   
-  // Simulation level: 0 to 50 (1st cause funded - Malaria Nets)
-  const [progressIndex, setProgressIndex] = useState<number>(1);
+  // Simulation level: 0 to 50 (causes 1-2 funded — Malaria Nets, Tuberculosis)
+  const [progressIndex, setProgressIndex] = useState<number>(2);
   
   // Selected cause for the detailed view (defaults to Malaria - ID 1)
   const [selectedCauseId, setSelectedCauseId] = useState<number>(1);

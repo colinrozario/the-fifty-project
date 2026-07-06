@@ -49,7 +49,7 @@ export const causesData: Cause[] = [
     orgName: "Operation ASHA",
     vettedBy: "The Life You Can Save",
     india80G: "Yes",
-    transferredDate: "Deployed: July 29, 2026",
+    transferredDate: "Funded on 04/07/26",
     receiptUrl: "https://thefiftyproject.in/receipts/02_tb_opasha_receipt.pdf",
     youtubeId: "dQw4w9WgXcQ",
     problemTitle: "India's greatest infectious killer persists out of sight",

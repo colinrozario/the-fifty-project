@@ -79,7 +79,7 @@ export const causesData: Cause[] = [
     orgName: "Aravind Eye Care System",
     vettedBy: "WHO Public Health Model",
     india80G: "Yes",
-    transferredDate: "Deployed: August 12, 2026",
+    transferredDate: "Funded on 12/08/26",
     receiptUrl: "https://thefiftyproject.in/receipts/03_cataract_aravind_receipt.pdf",
     youtubeId: "dQw4w9WgXcQ",
     problemTitle: "Reversible blindness keeping families in poverty",

@@ -554,7 +554,7 @@ export default function HomeTab({
             <div className="md:col-span-7 bg-[#1C1B17] aspect-video relative">
               <iframe
                 className="absolute inset-0 h-full w-full"
-                src="https://www.youtube.com/@kevinmarkdrozario"
+                src="https://www.youtube.com/embed/kQ-V893NMAU"
                 title="Episode 00/50 — The Introduction"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"

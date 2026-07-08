@@ -11,7 +11,7 @@ import CauseCard from './CauseCard';
 import CurrencyConverter from './CurrencyConverter';
 import { 
   ArrowRight, ShieldCheck, HelpCircle, ChevronDown, 
-  ChevronUp, Play, Heart, Mail, ExternalLink, Calendar,
+  ChevronUp, Heart, Mail, ExternalLink, Calendar,
   ArrowUpRight, Info
 } from 'lucide-react';
 
@@ -550,21 +550,16 @@ export default function HomeTab({
 
           <div className="border border-hairline rounded-2xl overflow-hidden bg-white shadow-sm grid grid-cols-1 md:grid-cols-12 items-center">
             
-            {/* YouTube Embed Placeholder Frame */}
-            <div className="md:col-span-7 bg-[#1C1B17] aspect-video relative flex items-center justify-center text-center">
-              <div className="space-y-4 px-6 select-none">
-                <div className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-marigold text-banyan cursor-pointer hover:scale-105 transition-transform">
-                  <Play className="h-6 w-6 fill-banyan" />
-                </div>
-                <div className="space-y-1">
-                  <div className="font-mono text-[10px] text-marigold tracking-widest uppercase font-bold">
-                    PREVIEW EMBED PLAYER
-                  </div>
-                  <h6 className="font-display text-white text-base font-bold">
-                    Episode 00/50 — The Introduction
-                  </h6>
-                </div>
-              </div>
+            {/* YouTube Embed Frame (placeholder link for now) */}
+            <div className="md:col-span-7 bg-[#1C1B17] aspect-video relative">
+              <iframe
+                className="absolute inset-0 h-full w-full"
+                src="https://www.youtube.com/@kevinmarkdrozario"
+                title="Episode 00/50 — The Introduction"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
             </div>
 
             {/* Video description card */}

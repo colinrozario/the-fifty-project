@@ -221,7 +221,7 @@ export default function HomeTab({
               <span className="font-mono text-xs font-bold text-leaf bg-white px-2.5 py-1 rounded-md border border-hairline">
                 STEP 01
               </span>
-              <h4 className="font-display text-xl font-bold text-banyan">One problem per fortnight</h4>
+              <h4 className="font-display text-xl font-bold text-banyan">One problem per week</h4>
             </div>
             <p className="font-sans text-xs sm:text-sm text-receipt-grey leading-relaxed">
               Fifty problems, no repeats, spanning human health, animals, climate and global resilience. Each gets two weeks of research and one episode.

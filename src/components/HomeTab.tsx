@@ -224,7 +224,7 @@ export default function HomeTab({
               <h4 className="font-display text-xl font-bold text-banyan">One problem per week</h4>
             </div>
             <p className="font-sans text-xs sm:text-sm text-receipt-grey leading-relaxed">
-              Fifty problems, no repeats, spanning human health, animals, climate and global resilience. Each gets two weeks of research and one episode.
+              Fifty problems, no repeats, spanning human health, animals, climate and global resilience. Each gets one week of research and one episode.
             </p>
           </div>
 

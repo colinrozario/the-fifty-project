@@ -109,7 +109,7 @@ export const causesData: Cause[] = [
     orgName: "Akshaya Patra Foundation",
     vettedBy: "Government of India Child Welfare",
     india80G: "Yes",
-    transferredDate: "Deployed: August 26, 2026",
+    transferredDate: "Funded on 26/08/26",
     receiptUrl: "https://thefiftyproject.in/receipts/04_meals_akshaya_receipt.pdf",
     youtubeId: "dQw4w9WgXcQ",
     problemTitle: "Hunger as an obstacle to the classroom",

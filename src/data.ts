@@ -139,7 +139,7 @@ export const causesData: Cause[] = [
     orgName: "Educate Girls",
     vettedBy: "Audacious Project & GiveWell Partner",
     india80G: "Yes",
-    transferredDate: "Deployed: September 9, 2026",
+    transferredDate: "Funded on 21/07/26",
     receiptUrl: "https://thefiftyproject.in/receipts/05_girls_educate_receipt.pdf",
     youtubeId: "dQw4w9WgXcQ",
     problemTitle: "The systemic isolation of rural girls",

@@ -169,7 +169,7 @@ export default function HomeTab({
 
           <div className="font-sans text-[16px] sm:text-[17px] leading-relaxed text-ink space-y-6">
             <p>
-              One crore rupees. Fifty problems — malaria, TB, kids out of school, dirty air, the next pandemic. One problem every fortnight, for fifty fortnights. For each one, the money goes to the single most effective organisation the evidence points to, guided by independent evaluators like <strong className="text-leaf">GiveWell</strong>, <strong className="text-[#C46A2B]">Animal Charity Evaluators</strong> and <strong className="text-[#3E7CA6]">Giving Green</strong>.
+              One crore rupees. Fifty problems — malaria, TB, kids out of school, dirty air, the next pandemic. One problem every week, for fifty weeks. For each one, the money goes to the single most effective organisation the evidence points to, guided by independent evaluators like <strong className="text-leaf">GiveWell</strong>, <strong className="text-[#C46A2B]">Animal Charity Evaluators</strong> and <strong className="text-[#3E7CA6]">Giving Green</strong>.
             </p>
             <p>
               Every transfer happens on camera. Every receipt is published in the open ledger. Every episode includes the strongest criticism of the organisation that was just funded.
